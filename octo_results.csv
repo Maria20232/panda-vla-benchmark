@@ -1,0 +1,151 @@
+task,instruction_type,instruction_text,rep,success,steps,latency_ms
+Lift,orig,lift the red cube,0,0,399,415.12495099982516
+Lift,orig,lift the red cube,1,0,399,437.51740899983815
+Lift,orig,lift the red cube,2,0,399,467.21214649983267
+Lift,orig,lift the red cube,3,0,399,407.0163770002182
+Lift,orig,lift the red cube,4,0,399,428.75848599987876
+Lift,orig,lift the red cube,5,0,399,405.4320045006534
+Lift,orig,lift the red cube,6,0,399,414.0514890000304
+Lift,orig,lift the red cube,7,0,399,417.0968379999067
+Lift,orig,lift the red cube,8,0,399,430.4879055002857
+Lift,orig,lift the red cube,9,0,399,416.86681250030233
+Lift,para1,raise the red block,0,0,399,470.0245435001307
+Lift,para1,raise the red block,1,0,399,516.4777720001439
+Lift,para1,raise the red block,2,0,399,485.4889664993607
+Lift,para1,raise the red block,3,0,399,471.84539949967075
+Lift,para1,raise the red block,4,0,399,490.80199400032143
+Lift,para1,raise the red block,5,0,399,491.9183870001689
+Lift,para1,raise the red block,6,0,399,491.22615750002296
+Lift,para1,raise the red block,7,0,399,513.7759280005412
+Lift,para1,raise the red block,8,0,399,506.44723100049305
+Lift,para1,raise the red block,9,0,399,489.29617350040644
+Lift,para2,elevate the red cube,0,0,399,479.28989000047295
+Lift,para2,elevate the red cube,1,0,399,474.44201600046654
+Lift,para2,elevate the red cube,2,0,399,477.0430779999515
+Lift,para2,elevate the red cube,3,0,399,368.4864064989597
+Lift,para2,elevate the red cube,4,0,399,382.0197069999267
+Lift,para2,elevate the red cube,5,0,399,425.975883999854
+Lift,para2,elevate the red cube,6,0,399,416.8916349999563
+Lift,para2,elevate the red cube,7,0,399,411.10376399956294
+Lift,para2,elevate the red cube,8,0,399,428.14836250090593
+Lift,para2,elevate the red cube,9,0,399,428.433361500538
+Stack,orig,stack the red cube on the green platform,0,0,399,434.24758599940105
+Stack,orig,stack the red cube on the green platform,1,0,399,453.02562400047464
+Stack,orig,stack the red cube on the green platform,2,0,399,435.99818399979995
+Stack,orig,stack the red cube on the green platform,3,0,399,437.99943449903367
+Stack,orig,stack the red cube on the green platform,4,0,399,477.04841650011076
+Stack,orig,stack the red cube on the green platform,5,0,399,492.06971200055705
+Stack,orig,stack the red cube on the green platform,6,0,399,496.3373899990984
+Stack,orig,stack the red cube on the green platform,7,0,399,437.6017240001602
+Stack,orig,stack the red cube on the green platform,8,0,399,391.0476639994158
+Stack,orig,stack the red cube on the green platform,9,0,399,389.85216050059535
+Stack,para1,place the red block onto the green stand,0,0,399,381.9066155001565
+Stack,para1,place the red block onto the green stand,1,0,399,384.2854860004081
+Stack,para1,place the red block onto the green stand,2,0,399,379.43211950005207
+Stack,para1,place the red block onto the green stand,3,0,399,379.2950175002261
+Stack,para1,place the red block onto the green stand,4,0,399,388.1622494991461
+Stack,para1,place the red block onto the green stand,5,0,399,390.7591790002698
+Stack,para1,place the red block onto the green stand,6,0,399,388.2596500006912
+Stack,para1,place the red block onto the green stand,7,0,399,384.0068874997087
+Stack,para1,place the red block onto the green stand,8,0,399,384.23305949891073
+Stack,para1,place the red block onto the green stand,9,0,399,385.33277599981375
+Stack,para2,put the red cube on top of the green platform,0,0,399,382.6518615005625
+Stack,para2,put the red cube on top of the green platform,1,0,399,379.83835999875737
+Stack,para2,put the red cube on top of the green platform,2,0,399,377.648270001373
+Stack,para2,put the red cube on top of the green platform,3,0,399,381.18897049935185
+Stack,para2,put the red cube on top of the green platform,4,0,399,383.6114780006028
+Stack,para2,put the red cube on top of the green platform,5,0,399,381.09402199916076
+Stack,para2,put the red cube on top of the green platform,6,0,399,379.6838155012665
+Stack,para2,put the red cube on top of the green platform,7,0,399,380.22927699967113
+Stack,para2,put the red cube on top of the green platform,8,0,399,423.83986299864773
+Stack,para2,put the red cube on top of the green platform,9,0,399,439.93846900048084
+Door,orig,open the door,0,0,399,438.76854500194895
+Door,orig,open the door,1,0,399,439.37917750008637
+Door,orig,open the door,2,0,399,449.95011649916705
+Door,orig,open the door,3,0,399,451.81757499995
+Door,orig,open the door,4,0,399,451.1833984997793
+Door,orig,open the door,5,0,399,449.57817849899584
+Door,orig,open the door,6,0,399,444.670117500209
+Door,orig,open the door,7,0,399,436.95129999832716
+Door,orig,open the door,8,0,399,437.95158849934523
+Door,orig,open the door,9,0,399,436.11744599911617
+Door,para1,rotate the door handle,0,0,399,439.53785699886794
+Door,para1,rotate the door handle,1,0,399,441.4962610007933
+Door,para1,rotate the door handle,2,0,399,442.923228500149
+Door,para1,rotate the door handle,3,0,399,454.7556359993905
+Door,para1,rotate the door handle,4,0,399,464.8756129990943
+Door,para1,rotate the door handle,5,0,399,406.3407740013645
+Door,para1,rotate the door handle,6,0,399,410.31793500042113
+Door,para1,rotate the door handle,7,0,399,414.51131199937663
+Door,para1,rotate the door handle,8,0,399,409.70609900068666
+Door,para1,rotate the door handle,9,0,399,407.61086649945355
+Door,para2,unlatch the door,0,0,399,408.6616314998537
+Door,para2,unlatch the door,1,0,399,413.9227829982701
+Door,para2,unlatch the door,2,0,399,411.2235345000954
+Door,para2,unlatch the door,3,0,399,410.41730049983016
+Door,para2,unlatch the door,4,0,399,411.0117754989915
+Door,para2,unlatch the door,5,0,399,413.66557350011135
+Door,para2,unlatch the door,6,0,399,410.22978500041063
+Door,para2,unlatch the door,7,0,399,408.7394470006984
+Door,para2,unlatch the door,8,0,399,409.5238314985181
+Door,para2,unlatch the door,9,0,399,396.7519979996723
+NutAssembly,orig,fit the square nut onto the peg,0,0,399,385.46920100088755
+NutAssembly,orig,fit the square nut onto the peg,1,0,399,387.18623900058446
+NutAssembly,orig,fit the square nut onto the peg,2,0,399,385.2478239987249
+NutAssembly,orig,fit the square nut onto the peg,3,0,399,388.575614999354
+NutAssembly,orig,fit the square nut onto the peg,4,0,399,385.80616249964805
+NutAssembly,orig,fit the square nut onto the peg,5,0,399,384.4830234993424
+NutAssembly,orig,fit the square nut onto the peg,6,0,399,383.54223350143
+NutAssembly,orig,fit the square nut onto the peg,7,0,399,385.89799299916194
+NutAssembly,orig,fit the square nut onto the peg,8,0,399,385.27168450127647
+NutAssembly,orig,fit the square nut onto the peg,9,0,399,468.60622500025784
+NutAssembly,para1,attach the nut to the peg,0,0,399,423.9371479998226
+NutAssembly,para1,attach the nut to the peg,1,0,399,417.6320084989129
+NutAssembly,para1,attach the nut to the peg,2,0,399,395.5062415006978
+NutAssembly,para1,attach the nut to the peg,3,0,399,381.4956465012074
+NutAssembly,para1,attach the nut to the peg,4,0,399,382.0461534996866
+NutAssembly,para1,attach the nut to the peg,5,0,399,380.7116384996334
+NutAssembly,para1,attach the nut to the peg,6,0,399,381.2621164997836
+NutAssembly,para1,attach the nut to the peg,7,0,399,381.44864499918185
+NutAssembly,para1,attach the nut to the peg,8,0,399,387.2719990013138
+NutAssembly,para1,attach the nut to the peg,9,0,399,382.99344899860444
+NutAssembly,para2,place the square nut on the peg,0,0,399,438.41659650024667
+NutAssembly,para2,place the square nut on the peg,1,0,399,440.14823799989244
+NutAssembly,para2,place the square nut on the peg,2,0,399,440.65909900018596
+NutAssembly,para2,place the square nut on the peg,3,0,399,437.3040549980942
+NutAssembly,para2,place the square nut on the peg,4,0,399,435.7303305005189
+NutAssembly,para2,place the square nut on the peg,5,0,399,436.1782289997791
+NutAssembly,para2,place the square nut on the peg,6,0,399,436.39414199969906
+NutAssembly,para2,place the square nut on the peg,7,0,399,435.7178415011731
+NutAssembly,para2,place the square nut on the peg,8,0,399,433.863886499239
+NutAssembly,para2,place the square nut on the peg,9,0,399,436.44409949774854
+PickPlace,orig,pick up the red cube and place it in the bin,0,0,399,425.23733400048513
+PickPlace,orig,pick up the red cube and place it in the bin,1,0,399,372.2718384997279
+PickPlace,orig,pick up the red cube and place it in the bin,2,0,399,372.868799000571
+PickPlace,orig,pick up the red cube and place it in the bin,3,0,399,371.79379999724915
+PickPlace,orig,pick up the red cube and place it in the bin,4,0,399,373.6667890007084
+PickPlace,orig,pick up the red cube and place it in the bin,5,0,399,373.1590719980886
+PickPlace,orig,pick up the red cube and place it in the bin,6,0,399,372.9225964998477
+PickPlace,orig,pick up the red cube and place it in the bin,7,0,399,378.7026505015092
+PickPlace,orig,pick up the red cube and place it in the bin,8,0,399,372.813693502394
+PickPlace,orig,pick up the red cube and place it in the bin,9,0,399,371.77612649975345
+PickPlace,para1,grasp the red block and put it into the bin,0,0,399,370.06119749639765
+PickPlace,para1,grasp the red block and put it into the bin,1,0,399,370.3714620023675
+PickPlace,para1,grasp the red block and put it into the bin,2,0,399,377.75536999834003
+PickPlace,para1,grasp the red block and put it into the bin,3,0,399,370.30066949955653
+PickPlace,para1,grasp the red block and put it into the bin,4,0,399,368.55938249937026
+PickPlace,para1,grasp the red block and put it into the bin,5,0,399,370.23303200112423
+PickPlace,para1,grasp the red block and put it into the bin,6,0,399,376.8447165020916
+PickPlace,para1,grasp the red block and put it into the bin,7,0,399,374.0916679998918
+PickPlace,para1,grasp the red block and put it into the bin,8,0,399,371.3257319977856
+PickPlace,para1,grasp the red block and put it into the bin,9,0,399,375.55703050020384
+PickPlace,para2,lift the red cube and drop it in the container,0,0,399,372.393354500673
+PickPlace,para2,lift the red cube and drop it in the container,1,0,399,432.86006999915116
+PickPlace,para2,lift the red cube and drop it in the container,2,0,399,427.4188995041186
+PickPlace,para2,lift the red cube and drop it in the container,3,0,399,429.81838649939164
+PickPlace,para2,lift the red cube and drop it in the container,4,0,399,432.074725998973
+PickPlace,para2,lift the red cube and drop it in the container,5,0,399,427.4068784980045
+PickPlace,para2,lift the red cube and drop it in the container,6,0,399,427.38444350106874
+PickPlace,para2,lift the red cube and drop it in the container,7,0,399,429.2447894986253
+PickPlace,para2,lift the red cube and drop it in the container,8,0,399,432.04327300190926
+PickPlace,para2,lift the red cube and drop it in the container,9,0,399,431.8630644957011
