@@ -1,0 +1,2 @@
+model,task,integration,instruction,episodes,successes,success_rate,wilson_low,wilson_high,median_latency_ms,mean_latency_ms,mean_episode_steps,mean_maximum_cube_lift,mean_minimum_eef_cube_distance
+Octo-Small-1.5,Lift,temporal_ensemble_5hz,lift the red cube,5,0,0.0,0.0,0.43448246478317476,580.6406239998978,601.3698834105082,400.0,0.0,0.0351178613775425

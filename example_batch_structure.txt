@@ -1,0 +1,34 @@
+2026-07-23 17:31:10.651297: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-23 17:31:10.651422: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-23 17:31:10.668336: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-07-23 17:31:12.254543: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Loading Octo-Small...
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 2307.31it/s]
+WARNING:jax._src.xla_bridge:An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5_fast.py:158: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+
+EXAMPLE BATCH STRUCTURE
+action: shape=(1, 2, 4, 7), dtype=float32
+action_pad_mask: shape=(1, 2, 4, 7), dtype=bool
+observation/image_primary: shape=(1, 2, 256, 256, 3), dtype=uint8
+observation/image_wrist: shape=(1, 2, 128, 128, 3), dtype=uint8
+observation/pad_mask_dict/image_primary: shape=(1, 2), dtype=bool
+observation/pad_mask_dict/image_wrist: shape=(1, 2), dtype=bool
+observation/pad_mask_dict/timestep: shape=(1, 2), dtype=bool
+observation/task_completed: shape=(1, 2, 4), dtype=bool
+observation/timestep: shape=(1, 2), dtype=int32
+observation/timestep_pad_mask: shape=(1, 2), dtype=bool
+task/image_primary: shape=(1, 256, 256, 3), dtype=uint8
+task/image_wrist: shape=(1, 128, 128, 3), dtype=uint8
+task/language_instruction/attention_mask: shape=(1, 16), dtype=int32
+task/language_instruction/input_ids: shape=(1, 16), dtype=int32
+task/pad_mask_dict/image_primary: shape=(1,), dtype=bool
+task/pad_mask_dict/image_wrist: shape=(1,), dtype=bool
+task/pad_mask_dict/language_instruction: shape=(1,), dtype=bool
+task/pad_mask_dict/timestep: shape=(1,), dtype=bool
+task/timestep: shape=(1,), dtype=int32

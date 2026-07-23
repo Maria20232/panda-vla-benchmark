@@ -1,0 +1,632 @@
+2026-07-22 20:56:01.165442: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-22 20:56:01.165731: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-22 20:56:01.185236: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-07-22 20:56:02.974531: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Loading Octo-Small...
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 13039.29it/s]
+WARNING:jax._src.xla_bridge:An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5_fast.py:158: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+
+Model dataset statistics:
+austin_buds_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+austin_buds_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[1. 1. 1. 0. 0. 0. 1.]
+austin_buds_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[-0.07678328  0.00368492  0.05644932  0.          0.          0.
+  0.35104948]
+austin_buds_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-1. -1. -1.  0.  0.  0.  0.]
+austin_buds_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.63677496 0.37889141 0.47796351 0.         0.         0.
+ 0.47721067]
+austin_buds_dataset_converted_externally_to_rlds.num_trajectories: 50
+austin_buds_dataset_converted_externally_to_rlds.num_transitions: 34112
+austin_sailor_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+austin_sailor_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[1.    1.    1.    0.    0.    0.375 1.   ]
+austin_sailor_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[0.01182534 0.00646109 0.06023647 0.         0.         0.00164659
+ 0.52609503]
+austin_sailor_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-1.    -1.    -1.     0.     0.    -0.375  0.   ]
+austin_sailor_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.46348897 0.41240254 0.4118633  0.         0.         0.05786081
+ 0.4989374 ]
+austin_sailor_dataset_converted_externally_to_rlds.num_trajectories: 240
+austin_sailor_dataset_converted_externally_to_rlds.num_transitions: 353094
+austin_sirius_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+austin_sirius_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[1.00022852 0.96060872 1.10517979 0.         0.         0.34178573
+ 1.        ]
+austin_sirius_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 0.07747688  0.03195548  0.04244747  0.          0.         -0.01603453
+  0.43260181]
+austin_sirius_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-1.01830256 -0.98000002 -0.97745752  0.          0.         -0.34607142
+  0.        ]
+austin_sirius_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.39063302 0.29981536 0.27822682 0.         0.         0.08120608
+ 0.49528426]
+austin_sirius_dataset_converted_externally_to_rlds.num_trajectories: 559
+austin_sirius_dataset_converted_externally_to_rlds.num_transitions: 279939
+bc_z.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+bc_z.action.max: shape=(7,), dtype=float64, values=[0.21654549 0.12514073 0.10772688 0.33544227 0.2811799  0.40614867
+ 1.        ]
+bc_z.action.mean: shape=(7,), dtype=float64, values=[-9.95806418e-03  8.95840989e-04  4.99580242e-03  2.97539693e-04
+ -8.73428956e-03 -3.06910910e-02  8.34456265e-01]
+bc_z.action.min: shape=(7,), dtype=float64, values=[-0.16770475 -0.14630407 -0.1006679  -0.29421568 -0.32101405 -0.46356249
+  0.        ]
+bc_z.action.std: shape=(7,), dtype=float64, values=[0.0305393  0.02314167 0.02064272 0.04155865 0.04642805 0.07697977
+ 0.36104721]
+bc_z.num_trajectories: 43264
+bc_z.num_transitions: 6015535
+berkeley_autolab_ur5.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+berkeley_autolab_ur5.action.max: shape=(7,), dtype=float64, values=[0.02       0.02       0.02       0.06666667 0.06666667 0.06666667
+ 1.        ]
+berkeley_autolab_ur5.action.mean: shape=(7,), dtype=float64, values=[ 5.68363117e-04  1.21769065e-03 -5.29637618e-04  2.10297323e-04
+  6.06944195e-05  1.20498787e-03  6.29830837e-01]
+berkeley_autolab_ur5.action.min: shape=(7,), dtype=float64, values=[-0.02       -0.02       -0.02       -0.06666667 -0.06666667 -0.06666667
+  0.        ]
+berkeley_autolab_ur5.action.std: shape=(7,), dtype=float64, values=[0.01153334 0.00799049 0.00957782 0.00943304 0.01642757 0.01105414
+ 0.48267916]
+berkeley_autolab_ur5.num_trajectories: 1000
+berkeley_autolab_ur5.num_transitions: 97939
+berkeley_cable_routing.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+berkeley_cable_routing.action.max: shape=(7,), dtype=float64, values=[0.9633283 1.        1.        0.        0.        1.        0.       ]
+berkeley_cable_routing.action.mean: shape=(7,), dtype=float64, values=[-0.07139891  0.02360901  0.10241946  0.          0.          0.049671
+  0.        ]
+berkeley_cable_routing.action.min: shape=(7,), dtype=float64, values=[-0.98090816 -0.95543492 -0.99947751  0.          0.         -1.
+  0.        ]
+berkeley_cable_routing.action.std: shape=(7,), dtype=float64, values=[0.18154967 0.1810986  0.21220787 0.         0.         0.34755132
+ 0.        ]
+berkeley_cable_routing.num_trajectories: 1647
+berkeley_cable_routing.num_transitions: 42328
+berkeley_fanuc_manipulation.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+berkeley_fanuc_manipulation.action.max: shape=(7,), dtype=float64, values=[0.01       0.01       0.01       0.03490658 0.03490658 0.03490658
+ 1.        ]
+berkeley_fanuc_manipulation.action.mean: shape=(7,), dtype=float64, values=[ 7.74405780e-04 -3.12400807e-04 -1.50019419e-03 -7.51515850e-04
+ -1.58328781e-04  1.43276426e-04  6.99295700e-01]
+berkeley_fanuc_manipulation.action.min: shape=(7,), dtype=float64, values=[-0.01       -0.01       -0.01       -0.03490658 -0.03490658 -0.03490658
+  0.        ]
+berkeley_fanuc_manipulation.action.std: shape=(7,), dtype=float64, values=[0.003407   0.00499221 0.00534433 0.00759889 0.00408183 0.008569
+ 0.45869279]
+berkeley_fanuc_manipulation.num_trajectories: 415
+berkeley_fanuc_manipulation.num_transitions: 62613
+bridge_dataset.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+bridge_dataset.action.max: shape=(7,), dtype=float64, values=[0.41691166 0.25864795 0.21218234 3.12220192 1.86181128 6.28047848
+ 1.        ]
+bridge_dataset.action.mean: shape=(7,), dtype=float64, values=[ 2.17586465e-04  1.25082981e-04 -1.71083258e-04 -1.61711389e-04
+ -2.52485683e-04  2.51578749e-04  5.87948442e-01]
+bridge_dataset.action.min: shape=(7,), dtype=float64, values=[-0.40075102 -0.13874775 -0.225539   -3.20107865 -1.86181128 -6.27907562
+  0.        ]
+bridge_dataset.action.std: shape=(7,), dtype=float64, values=[0.00963238 0.01350064 0.0125106  0.02814521 0.03028243 0.07585602
+ 0.48771909]
+bridge_dataset.num_trajectories: 60064
+bridge_dataset.num_transitions: 2195527
+cmu_stretch.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+cmu_stretch.action.max: shape=(7,), dtype=float64, values=[0.02338407 0.         0.02340493 0.         0.         0.
+ 1.        ]
+cmu_stretch.action.mean: shape=(7,), dtype=float64, values=[3.63047293e-04 0.00000000e+00 1.64669543e-03 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 3.98704827e-01]
+cmu_stretch.action.min: shape=(7,), dtype=float64, values=[-0.0193538   0.         -0.02019215  0.          0.          0.
+  0.        ]
+cmu_stretch.action.std: shape=(7,), dtype=float64, values=[0.00408182 0.         0.00377434 0.         0.         0.
+ 0.48963776]
+cmu_stretch.num_trajectories: 135
+cmu_stretch.num_transitions: 25016
+dlr_edan_shared_control_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+dlr_edan_shared_control_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[0.18991442 0.07390025 0.18064819 0.08664861 0.13464981 0.1691028
+ 1.        ]
+dlr_edan_shared_control_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 0.00664781 -0.00076574  0.00652285  0.00116797 -0.00639563 -0.01190301
+  0.69858873]
+dlr_edan_shared_control_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-0.10054297 -0.08427435 -0.13533439 -0.17556548 -0.18485673 -0.26806858
+  0.        ]
+dlr_edan_shared_control_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.02139362 0.01814231 0.03374373 0.01743544 0.03394376 0.04641879
+ 0.4588578 ]
+dlr_edan_shared_control_converted_externally_to_rlds.num_trajectories: 104
+dlr_edan_shared_control_converted_externally_to_rlds.num_transitions: 8928
+fractal20220817_data.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+fractal20220817_data.action.max: shape=(7,), dtype=float64, values=[ 2.99845934 22.09052849  2.75075245  1.57063651  1.53210866  1.56915224
+  1.        ]
+fractal20220817_data.action.mean: shape=(7,), dtype=float64, values=[ 0.00698753  0.00626582 -0.01262517  0.0433337  -0.00575617  0.00091304
+  0.53542048]
+fractal20220817_data.action.min: shape=(7,), dtype=float64, values=[-2.02045202 -5.49789953 -2.03166342 -1.56991792 -1.56989217 -1.57041943
+  0.        ]
+fractal20220817_data.action.std: shape=(7,), dtype=float64, values=[0.06921106 0.05970754 0.07353076 0.1561041  0.13164446 0.14593776
+ 0.49711505]
+fractal20220817_data.num_trajectories: 87212
+fractal20220817_data.num_transitions: 3786400
+furniture_bench_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+furniture_bench_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[0.1        0.1        0.1        0.86518335 1.09097362 2.86318541
+ 1.        ]
+furniture_bench_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 1.46107181e-04  1.08310208e-03  6.22497231e-04 -3.30321980e-03
+ -2.68806168e-03  1.82426535e-02  4.88549441e-01]
+furniture_bench_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-0.1049558  -0.10939456 -0.1        -0.97190684 -1.04754329 -3.06000018
+  0.        ]
+furniture_bench_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.01610717 0.01489152 0.01401424 0.05827428 0.11417085 0.33479521
+ 0.49991542]
+furniture_bench_dataset_converted_externally_to_rlds.num_trajectories: 5100
+furniture_bench_dataset_converted_externally_to_rlds.num_transitions: 3948057
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[0.66349816 0.23428471 0.43082854 3.14159274 0.13647015 3.1415925
+ 1.        ]
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 0.52743614  0.028582    0.18712492  1.23395646  0.03226623 -1.41994715
+  0.55506319]
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[ 0.30716571 -0.29754969  0.06578229 -3.14159274 -0.04584203 -3.1415925
+  0.        ]
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.08108349 0.11167571 0.07747555 2.87372279 0.02774705 2.76786828
+ 0.49695107]
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.num_trajectories: 631
+iamlab_cmu_pickup_insert_converted_externally_to_rlds.num_transitions: 146241
+jaco_play.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+jaco_play.action.max: shape=(7,), dtype=float64, values=[0.2 0.2 0.2 0.  0.  0.  1. ]
+jaco_play.action.mean: shape=(7,), dtype=float64, values=[ 0.00096586 -0.0058008  -0.00395048  0.          0.          0.
+  0.34934908]
+jaco_play.action.min: shape=(7,), dtype=float64, values=[-0.2 -0.2 -0.2  0.   0.   0.   0. ]
+jaco_play.action.std: shape=(7,), dtype=float64, values=[0.12235051 0.09678874 0.11155396 0.         0.         0.
+ 0.47683021]
+jaco_play.num_trajectories: 1085
+jaco_play.num_transitions: 77965
+kuka.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+kuka.action.max: shape=(7,), dtype=float64, values=[0.16971359 0.27776232 0.43710533 0.         0.         1.96842873
+ 1.        ]
+kuka.action.mean: shape=(7,), dtype=float64, values=[-4.66900296e-04  4.01387573e-04 -1.28079893e-03  0.00000000e+00
+  0.00000000e+00 -3.72240841e-02  4.13154304e-01]
+kuka.action.min: shape=(7,), dtype=float64, values=[-0.15986706 -0.2892282  -0.27954736  0.          0.         -1.98756373
+  0.        ]
+kuka.action.std: shape=(7,), dtype=float64, values=[0.02083241 0.02915872 0.06422982 0.         0.         0.14225349
+ 0.49086064]
+kuka.num_trajectories: 209880
+kuka.num_transitions: 2455879
+language_table.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+language_table.action.max: shape=(7,), dtype=float64, values=[0.23357294 0.24496803 0.         0.         0.         0.
+ 1.        ]
+language_table.action.mean: shape=(7,), dtype=float64, values=[ 1.48917505e-04 -5.63668611e-04  0.00000000e+00  0.00000000e+00
+  0.00000000e+00  0.00000000e+00  1.00000000e+00]
+language_table.action.min: shape=(7,), dtype=float64, values=[-0.21989956 -0.23736151  0.          0.          0.          0.
+  1.        ]
+language_table.action.std: shape=(7,), dtype=float64, values=[0.03016294 0.0423076  0.         0.         0.         0.
+ 0.        ]
+language_table.num_trajectories: 442226
+language_table.num_transitions: 7045476
+nyu_door_opening_surprising_effectiveness.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+nyu_door_opening_surprising_effectiveness.action.max: shape=(7,), dtype=float64, values=[0.03508336 0.06318934 0.04333262 0.05477518 0.1734558  0.06685609
+ 1.        ]
+nyu_door_opening_surprising_effectiveness.action.mean: shape=(7,), dtype=float64, values=[-6.21341635e-03  1.28255878e-03  1.24405406e-03 -1.56573660e-04
+ -1.16538573e-02 -1.58552208e-03  3.98137718e-01]
+nyu_door_opening_surprising_effectiveness.action.min: shape=(7,), dtype=float64, values=[-0.27681807 -0.10727508 -0.3554436  -0.03678948 -0.21697818 -0.0676727
+  0.        ]
+nyu_door_opening_surprising_effectiveness.action.std: shape=(7,), dtype=float64, values=[0.01214853 0.01955935 0.00774687 0.00813307 0.03360675 0.0131721
+ 0.48953348]
+nyu_door_opening_surprising_effectiveness.num_trajectories: 484
+nyu_door_opening_surprising_effectiveness.num_transitions: 20405
+nyu_franka_play_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+nyu_franka_play_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[0.06424189 0.07027635 0.06129661 6.28106785 0.19677299 0.26377416
+ 1.        ]
+nyu_franka_play_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 1.02199160e-03 -1.20026038e-04  3.28941591e-04  1.50342751e-03
+ -2.19853013e-03 -1.66322931e-03  7.23008335e-01]
+nyu_franka_play_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-0.0595223  -0.07232445 -0.06730807 -6.27843475 -0.21479034 -0.36276197
+  0.        ]
+nyu_franka_play_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.01327415 0.01321592 0.01282211 0.27324539 0.05702253 0.03917281
+ 0.44753242]
+nyu_franka_play_dataset_converted_externally_to_rlds.num_trajectories: 456
+nyu_franka_play_dataset_converted_externally_to_rlds.num_transitions: 44875
+roboturk.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+roboturk.action.max: shape=(7,), dtype=float64, values=[0.39124173 0.46010283 0.48708335 1.81688869 1.82402825 1.48248208
+ 1.        ]
+roboturk.action.mean: shape=(7,), dtype=float64, values=[ 1.44487899e-03 -1.59452041e-03 -1.17537659e-03  2.30123848e-03
+ -9.38243757e-04 -1.14857619e-04  5.74602544e-01]
+roboturk.action.min: shape=(7,), dtype=float64, values=[-0.65469992 -0.6365841  -0.42177236 -1.66954827 -1.80233574 -1.46308279
+  0.        ]
+roboturk.action.std: shape=(7,), dtype=float64, values=[0.04935364 0.0635457  0.06116503 0.09553453 0.08420163 0.06517924
+ 0.49451038]
+roboturk.num_trajectories: 1995
+roboturk.num_transitions: 187507
+stanford_hydra_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+stanford_hydra_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[0.02499855 0.02499903 0.02499992 0.24974458 0.2499703  0.24999946
+ 1.        ]
+stanford_hydra_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 7.79005932e-04  1.37076931e-04 -2.54857849e-04  1.29033718e-03
+ -4.75172466e-03  2.69289594e-03  4.88552183e-01]
+stanford_hydra_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[-0.02499904 -0.0249997  -0.0249993  -0.24993226 -0.24996661 -0.24999325
+  0.        ]
+stanford_hydra_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[0.00802226 0.00913148 0.00957433 0.04122216 0.0384304  0.04606686
+ 0.49978739]
+stanford_hydra_dataset_converted_externally_to_rlds.num_trajectories: 570
+stanford_hydra_dataset_converted_externally_to_rlds.num_transitions: 358234
+taco_extra.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+taco_extra.action.max: shape=(7,), dtype=float64, values=[1.56081474 2.17237258 1.81527138 3.39283133 4.24741316 3.04276562
+ 1.        ]
+taco_extra.action.mean: shape=(7,), dtype=float64, values=[-0.01319882  0.02590645 -0.01225911  0.00132141  0.00232461  0.05522563
+  0.78163505]
+taco_extra.action.min: shape=(7,), dtype=float64, values=[-1.67459595 -1.89850879 -1.72513187 -1.83955634 -3.38140869 -3.28947043
+  0.        ]
+taco_extra.action.std: shape=(7,), dtype=float64, values=[0.2259673  0.36724007 0.25213602 0.19997862 0.2595247  0.32822132
+ 0.41320288]
+taco_extra.num_trajectories: 514
+taco_extra.num_transitions: 55192
+taco_play.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+taco_play.action.max: shape=(7,), dtype=float64, values=[1.49158442 2.1842432  2.68363953 5.03522682 2.66586494 4.25076866
+ 1.        ]
+taco_play.action.mean: shape=(7,), dtype=float64, values=[-0.00384592  0.00967144  0.01278058 -0.00540379 -0.00960658 -0.00248075
+  0.4263913 ]
+taco_play.action.min: shape=(7,), dtype=float64, values=[-4.24245787 -3.19280505 -1.33714676 -4.20268345 -2.67226386 -3.34671354
+  0.        ]
+taco_play.action.std: shape=(7,), dtype=float64, values=[0.23254038 0.36298275 0.28692925 0.26177061 0.24388929 0.52165037
+ 0.49469006]
+taco_play.num_trajectories: 3603
+taco_play.num_transitions: 237798
+toto.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+toto.action.max: shape=(7,), dtype=float64, values=[0.68398672 0.44541857 0.79840785 2.12078166 1.37116432 1.41187048
+ 0.        ]
+toto.action.mean: shape=(7,), dtype=float64, values=[ 0.38542137  0.00776949  0.3632741  -0.66520274  0.18903959  0.03298759
+  0.        ]
+toto.action.min: shape=(7,), dtype=float64, values=[ 0.09922285 -0.51801938  0.13791072 -2.63511753 -1.07344806 -1.92825472
+  0.        ]
+toto.action.std: shape=(7,), dtype=float64, values=[0.12211632 0.1937857  0.10178232 0.57252562 0.29884598 0.3259916
+ 0.        ]
+toto.num_trajectories: 1003
+toto.num_transitions: 325699
+ucsd_kitchen_dataset_converted_externally_to_rlds.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+ucsd_kitchen_dataset_converted_externally_to_rlds.action.max: shape=(7,), dtype=float64, values=[678.         400.         507.         180.00001526   6.00001383
+ 116.99998474   1.        ]
+ucsd_kitchen_dataset_converted_externally_to_rlds.action.mean: shape=(7,), dtype=float64, values=[ 410.37567139  116.95187378  192.35032654 -121.22441864  -33.84893036
+   50.01613617    0.7418136 ]
+ucsd_kitchen_dataset_converted_externally_to_rlds.action.min: shape=(7,), dtype=float64, values=[ 172.         -166.          -99.99999237 -180.00001526  -89.
+  -96.00010681    0.        ]
+ucsd_kitchen_dataset_converted_externally_to_rlds.action.std: shape=(7,), dtype=float64, values=[122.81496429 108.80091858 130.3034668  116.28205109  27.62184143
+  41.0209465    0.43763357]
+ucsd_kitchen_dataset_converted_externally_to_rlds.num_trajectories: 150
+ucsd_kitchen_dataset_converted_externally_to_rlds.num_transitions: 3970
+utaustin_mutex.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+utaustin_mutex.action.max: shape=(7,), dtype=float64, values=[1.    1.    1.    0.375 0.375 0.375 1.   ]
+utaustin_mutex.action.mean: shape=(7,), dtype=float64, values=[ 0.0617641  -0.00500548  0.1021678  -0.03314127  0.01389502 -0.01131764
+  0.50389767]
+utaustin_mutex.action.min: shape=(7,), dtype=float64, values=[-1.    -1.    -1.    -0.375 -0.375 -0.375  0.   ]
+utaustin_mutex.action.std: shape=(7,), dtype=float64, values=[0.18750148 0.44684729 0.37928799 0.14097853 0.06453709 0.11765364
+ 0.50104529]
+utaustin_mutex.num_trajectories: 1500
+utaustin_mutex.num_transitions: 361883
+viola.action.mask: shape=(7,), dtype=bool, values=[ True  True  True  True  True  True False]
+viola.action.max: shape=(7,), dtype=float64, values=[1.         1.         1.         0.375      0.36321428 0.375
+ 1.        ]
+viola.action.mean: shape=(7,), dtype=float64, values=[ 0.04761855 -0.02920447  0.0558675  -0.00261852  0.00686735 -0.01682134
+  0.73237777]
+viola.action.min: shape=(7,), dtype=float64, values=[-1.    -1.    -1.    -0.375 -0.375 -0.375  0.   ]
+viola.action.std: shape=(7,), dtype=float64, values=[0.39157972 0.40765208 0.40077937 0.1002396  0.08443219 0.10375052
+ 0.44260308]
+viola.num_trajectories: 150
+viola.num_transitions: 76324
+
+Example batch observation keys:
+action: shape=(1, 2, 4, 7), dtype=float32, values=[[[[-0.05420488 -0.05994963  1.1759415   0.19460547 -0.5148896
+    -0.8871633   1.        ]
+   [-0.05570262 -0.06853785  1.158991    0.3241096  -0.511977
+    -0.7263384   1.        ]
+   [ 0.00484354  0.1238048   1.3181013   0.3131504  -0.62572277
+    -0.6616014   1.        ]
+   [ 0.07013711  0.45220387  1.1778085   0.48381597 -0.81786895
+    -0.47870055  1.        ]]
+
+  [[-0.05570262 -0.06853785  1.158991    0.3241096  -0.511977
+    -0.7263384   1.        ]
+   [ 0.00484354  0.1238048   1.3181013   0.3131504  -0.62572277
+    -0.6616014   1.        ]
+   [ 0.07013711  0.45220387  1.1778085   0.48381597 -0.81786895
+    -0.47870055  1.        ]
+   [-0.13625114  1.100253    1.5736351   0.5500836  -1.1888574
+    -0.47547978  1.        ]]]]
+action_pad_mask: shape=(1, 2, 4, 7), dtype=bool, values=[[[[ True  True  True  True  True  True  True]
+   [ True  True  True  True  True  True  True]
+   [ True  True  True  True  True  True  True]
+   [ True  True  True  True  True  True  True]]
+
+  [[ True  True  True  True  True  True  True]
+   [ True  True  True  True  True  True  True]
+   [ True  True  True  True  True  True  True]
+   [ True  True  True  True  True  True  True]]]]
+observation.image_primary: shape=(1, 2, 256, 256, 3), dtype=uint8, values=[[[[[131 105  94]
+    [140 114 103]
+    [133 110  97]
+    ...
+    [138  91  69]
+    [138  91  69]
+    [138  91  69]]
+
+   [[127  98  87]
+    [142 115 103]
+    [132 105  93]
+    ...
+    [139  92  70]
+    [139  92  70]
+    [139  92  70]]
+
+   [[123  92  81]
+    [131 102  89]
+    [124  95  84]
+    ...
+    [140  93  71]
+    [139  92  70]
+    [139  92  70]]
+
+   ...
+
+   [[170 120  95]
+    [171 121  96]
+    [172 122  97]
+    ...
+    [138  95  73]
+    [150 107  86]
+    [155 112  90]]
+
+   [[170 120  95]
+    [171 121  96]
+    [172 123  97]
+    ...
+    [135  92  70]
+    [148 105  83]
+    [154 112  90]]
+
+   [[170 120  95]
+    [171 121  96]
+    [173 123  98]
+    ...
+    [132  90  68]
+    [145 104  81]
+    [153 111  89]]]
+
+
+  [[[130 104  93]
+    [139 114 103]
+    [129 105  93]
+    ...
+    [137  89  70]
+    [137  89  69]
+    [137  89  70]]
+
+   [[132 104  93]
+    [137 110  98]
+    [118  91  80]
+    ...
+    [139  91  71]
+    [139  91  72]
+    [139  91  72]]
+
+   [[128  97  86]
+    [126  96  84]
+    [115  87  75]
+    ...
+    [139  91  72]
+    [139  91  72]
+    [139  91  72]]
+
+   ...
+
+   [[169 119  94]
+    [171 121  96]
+    [173 124  99]
+    ...
+    [158 118 102]
+    [160 120 104]
+    [161 121 105]]
+
+   [[169 119  94]
+    [171 121  96]
+    [173 124  98]
+    ...
+    [158 118 102]
+    [160 120 104]
+    [161 121 106]]
+
+   [[169 120  94]
+    [171 121  96]
+    [173 123  98]
+    ...
+    [158 118 102]
+    [160 120 104]
+    [161 121 106]]]]]
+observation.image_wrist: shape=(1, 2, 128, 128, 3), dtype=uint8, values=[[[[[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   ...
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]]
+
+
+  [[[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   ...
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]
+
+   [[0 0 0]
+    [0 0 0]
+    [0 0 0]
+    ...
+    [0 0 0]
+    [0 0 0]
+    [0 0 0]]]]]
+observation.pad_mask_dict.image_primary: shape=(1, 2), dtype=bool, values=[[ True  True]]
+observation.pad_mask_dict.image_wrist: shape=(1, 2), dtype=bool, values=[[False False]]
+observation.pad_mask_dict.timestep: shape=(1, 2), dtype=bool, values=[[ True  True]]
+observation.task_completed: shape=(1, 2, 4), dtype=bool, values=[[[False False False False]
+  [False False False False]]]
+observation.timestep: shape=(1, 2), dtype=int32, values=[[42 43]]
+observation.timestep_pad_mask: shape=(1, 2), dtype=bool, values=[[ True  True]]
+task.image_primary: shape=(1, 256, 256, 3), dtype=uint8, values=[[[[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  ...
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]]]
+task.image_wrist: shape=(1, 128, 128, 3), dtype=uint8, values=[[[[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  ...
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]
+
+  [[0 0 0]
+   [0 0 0]
+   [0 0 0]
+   ...
+   [0 0 0]
+   [0 0 0]
+   [0 0 0]]]]
+task.language_instruction.attention_mask: shape=(1, 16), dtype=int32, values=[[1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0]]
+task.language_instruction.input_ids: shape=(1, 16), dtype=int32, values=[[14258     8  5270    30     8  2667  1774    13     8   953     1     0
+      0     0     0     0]]
+task.pad_mask_dict.image_primary: shape=(1,), dtype=bool, values=[False]
+task.pad_mask_dict.image_wrist: shape=(1,), dtype=bool, values=[False]
+task.pad_mask_dict.language_instruction: shape=(1,), dtype=bool, values=[ True]
+task.pad_mask_dict.timestep: shape=(1,), dtype=bool, values=[ True]
+task.timestep: shape=(1,), dtype=int32, values=[93]

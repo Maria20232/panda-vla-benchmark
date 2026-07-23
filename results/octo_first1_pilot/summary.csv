@@ -1,0 +1,2 @@
+variant,episodes,successes,success_rate,wilson_low,wilson_high,median_latency_ms,mean_latency_ms,mean_maximum_cube_lift,mean_minimum_eef_cube_distance
+first1,5,0,0.0,0.0,0.43448246478317476,617.0528054997249,654.1524176249981,0.0,0.03616512936866886

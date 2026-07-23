@@ -1,0 +1,2 @@
+model,task,instruction,episodes,successes,success_rate,wilson_low,wilson_high,median_latency_ms,mean_latency_ms,mean_episode_steps,mean_maximum_cube_lift,benchmark_duration_seconds
+Octo-Small-1.5,Lift,lift the red cube,3,0,0.0,5.551115123125783e-17,0.5614970317550454,613.0315045002135,616.6419658466233,400.0,0.0,638.543417289
