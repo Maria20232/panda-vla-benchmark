@@ -1,0 +1,78 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+2026-07-26 01:02:23.208046: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-26 01:02:23.208179: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-26 01:02:23.229505: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-07-26 01:02:24.390509: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Loading Octo-Small...
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 9225.01it/s]
+/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5_fast.py:158: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+INFO:robosuite_logs:Loading controller configuration from: /home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config.
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+WARNING:robosuite_logs:The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config.
+WARNING:root:'observations' is missing items compared to example_batch: {'pad_mask_dict/timestep', 'task_completed', 'timestep', 'pad_mask_dict/image_wrist', 'pad_mask_dict/image_primary'}
+WARNING:root:No pad_mask_dict found. Nothing will be masked.
+WARNING:root:No pad_mask_dict found. Nothing will be masked.
+Traceback (most recent call last):
+  File "/home/maria/projects/panda-vla-benchmark/probe_octo_language_sensitivity.py", line 311, in <module>
+    main()
+  File "/home/maria/projects/panda-vla-benchmark/probe_octo_language_sensitivity.py", line 163, in main
+    action_chunk = model.sample_actions(
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/traceback_util.py", line 177, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/pjit.py", line 256, in cache_miss
+    outs, out_flat, out_tree, args_flat, jaxpr = _python_pjit_helper(
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/pjit.py", line 167, in _python_pjit_helper
+    out_flat = pjit_p.bind(*args_flat, **params)
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/core.py", line 2656, in bind
+    return self.bind_with_trace(top_trace, args, params)
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/core.py", line 388, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/core.py", line 868, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/pjit.py", line 1212, in _pjit_call_impl
+    return xc._xla.pjit(name, f, call_impl_cache_miss, [], [], donated_argnums,
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/pjit.py", line 1196, in call_impl_cache_miss
+    out_flat, compiled = _pjit_call_impl_python(
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/pjit.py", line 1132, in _pjit_call_impl_python
+    lowering_parameters=mlir.LoweringParameters()).compile()
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2258, in compile
+    executable = UnloadedMeshExecutable.from_hlo(
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2606, in from_hlo
+    xla_executable, compile_options = _cached_compilation(
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2513, in _cached_compilation
+    xla_executable = compiler.compile_or_get_cached(
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/compiler.py", line 295, in compile_or_get_cached
+    return backend_compile(backend, computation, compile_options,
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/profiler.py", line 340, in wrapper
+    return func(*args, **kwargs)
+  File "/home/maria/miniconda3/envs/octo/lib/python3.10/site-packages/jax/_src/compiler.py", line 255, in backend_compile
+    return backend.compile(built_c, compile_options=options)
+KeyboardInterrupt
