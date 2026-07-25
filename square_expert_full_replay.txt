@@ -1,0 +1,54 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+================================================================================
+FULL SQUARE EXPERT ACTION REPLAY
+================================================================================
+Demo: demo_0
+States: (127, 45)
+Actions: (127, 7)
+Initial restoration max error: 0.0
+Step   1/127 | success=False | reward=0.0044 | distance=0.2130 | state RMSE=0.025440
+Step  10/127 | success=False | reward=0.0026 | distance=0.2312 | state RMSE=0.003451
+Step  20/127 | success=False | reward=0.0092 | distance=0.1628 | state RMSE=0.002314
+Step  30/127 | success=False | reward=0.0380 | distance=0.0970 | state RMSE=0.002231
+Step  40/127 | success=False | reward=0.0728 | distance=0.0744 | state RMSE=0.002192
+Step  50/127 | success=False | reward=0.0800 | distance=0.0740 | state RMSE=0.003324
+Step  60/127 | success=False | reward=0.3541 | distance=0.0728 | state RMSE=0.011722
+Step  70/127 | success=False | reward=0.4254 | distance=0.0736 | state RMSE=0.007530
+Step  80/127 | success=False | reward=0.5062 | distance=0.0744 | state RMSE=0.004443
+Step  90/127 | success=False | reward=0.6359 | distance=0.0748 | state RMSE=0.004063
+Step 100/127 | success=False | reward=0.5818 | distance=0.0753 | state RMSE=0.003616
+Step 110/127 | success=False | reward=0.6011 | distance=0.0750 | state RMSE=0.003566
+Step 120/127 | success=False | reward=0.5657 | distance=0.0751 | state RMSE=0.010007
+Step 123/127 | success=True | reward=1.0000 | distance=0.1078 | state RMSE=1.124888
+Step 124/127 | success=True | reward=1.0000 | distance=0.1351 | state RMSE=0.049819
+Step 125/127 | success=True | reward=1.0000 | distance=0.1375 | state RMSE=0.011858
+Step 126/127 | success=True | reward=1.0000 | distance=0.1425 | state RMSE=0.009249
+Step 127/127 | success=True | reward=1.0000 | distance=0.1495 | state RMSE=nan
+
+================================================================================
+FULL REPLAY SUMMARY
+================================================================================
+Success: True
+First success step: 123
+Executed actions: 127
+Maximum state RMSE: 1.124887936817661
+Mean state RMSE: 0.016341356833143583
+Final state RMSE: 0.009248508771178035
+Maximum nut lift: 0.08402089524835799
+Final nut displacement: [ 0.34350816 -0.07421855 -0.06087303]
+Saved: results/square_expert_replay/demo_0_replay.csv
