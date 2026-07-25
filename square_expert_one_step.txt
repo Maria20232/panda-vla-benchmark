@@ -1,0 +1,90 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+================================================================================
+SQUARE EXPERT ONE-STEP REPLAY
+================================================================================
+Demonstration: demo_0
+Saved state shape: (127, 45)
+Action shape: (127, 7)
+First expert action: [ 0.          0.          0.          0.03586306 -1.          0.00903606
+ -1.        ]
+
+Current simulator state length: 45
+Dataset state length: 45
+
+STATE RESTORATION ERROR
+------------------------------------------------------------------------
+Shape: (45,)
+Maximum absolute error: 0.0
+Mean absolute error: 0.0
+RMSE: 0.0
+
+Ten largest differences:
+index=44 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=43 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=42 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=41 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=40 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=39 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=38 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=37 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=36 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+index=35 | expected=+0.000000000 | actual=+0.000000000 | diff=+0.000000000
+
+RESTORED OBSERVATION COMPARISON
+------------------------------------------------------------------------
+
+robot0_eef_pos
+Dataset: [-0.11178995  0.00276081  0.99844004]
+Restored: [-0.11178995  0.00276081  0.99844004]
+Maximum absolute difference: 3.7470027081099033e-16
+
+robot0_eef_quat
+Dataset: [0.99874694 0.01176593 0.04855222 0.00296455]
+Restored: [0.99874694 0.01176582 0.04855222 0.00296454]
+Maximum absolute difference: 1.088381390047799e-07
+
+robot0_gripper_qpos
+Dataset: [ 0.020833 -0.020833]
+Restored: [ 0.020833 -0.020833]
+Maximum absolute difference: 0.0
+
+robot0_joint_pos
+Dataset: [ 0.01658789  0.21994195 -0.01091237 -2.62413735 -0.0150025   2.94122041
+  0.78294205]
+Restored: [ 0.01658789  0.21994195 -0.01091237 -2.62413735 -0.0150025   2.94122041
+  0.78294205]
+Maximum absolute difference: 0.0
+
+ONE-STEP REPLAY ERROR
+------------------------------------------------------------------------
+Shape: (45,)
+Maximum absolute error: 0.0657313954485867
+Mean absolute error: 0.004646727233775524
+RMSE: 0.01389944914758774
+
+Ten largest differences:
+index=26 | expected=+0.082191659 | actual=+0.016460263 | diff=-0.065731395
+index=28 | expected=+0.196345012 | actual=+0.251160089 | diff=+0.054815076
+index=30 | expected=-0.022046245 | actual=-0.002154894 | diff=+0.019891351
+index=25 | expected=-0.264468716 | actual=-0.245504378 | diff=+0.018964338
+index=27 | expected=+0.531536402 | actual=+0.548524976 | diff=+0.016988573
+index=24 | expected=-0.021851418 | actual=-0.038581182 | diff=-0.016729764
+index=31 | expected=+0.020023409 | actual=+0.015548312 | diff=-0.004475097
+index=32 | expected=-0.020255419 | actual=-0.016398829 | diff=+0.003856590
+index= 3 | expected=-0.007971496 | actual=-0.010192746 | diff=-0.002221250
+index= 5 | expected=-0.008897933 | actual=-0.007363809 | diff=+0.001534125
