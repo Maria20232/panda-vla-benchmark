@@ -1,0 +1,132 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+ROBOMIMIC WARNING(
+    No private macro file found!
+    It is recommended to use a private macro file
+    To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robomimic/scripts/setup_macros.py
+)
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_pos', 'robot0_gripper_qpos', 'robot0_eef_quat', 'object']
+using obs modality: rgb with keys: []
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+================================================================================
+SQUARE BC-500 TRAJECTORY DEBUG
+================================================================================
+Initial EEF: [-0.09774378  0.00277523  1.01109643]
+Initial nut: [-0.11120956  0.15077049  0.89      ]
+Initial distance: 0.19169838284057486
+Step   1 | reward=0.0040 | distance=0.1979 m | nut_z=0.8783 | gripper=-0.996 | success=False
+  action: [ 0.16312438  0.11154567  0.04273111  0.00569466  0.12254214  0.03833648
+ -0.99623191]
+  EEF: [-0.09826774  0.00393412  1.01028209]
+  Nut: [-0.11120956  0.15077049  0.87825234]
+Step  25 | reward=0.0312 | distance=0.1171 m | nut_z=0.8300 | gripper=-1.000 | success=False
+  action: [ 7.78617163e-04  5.22988811e-02 -2.90843040e-01  2.67667696e-04
+ -2.84077730e-02 -2.35044938e-02 -9.99996185e-01]
+  EEF: [-0.02893148  0.11151769  0.90348696]
+  Nut: [-0.11121261  0.15077105  0.82997895]
+Step  50 | reward=0.0616 | distance=0.0867 m | nut_z=0.8286 | gripper=+0.716 | success=False
+  action: [-0.07469647 -0.01572211 -0.24480705 -0.03514934 -0.0398367  -0.01020649
+  0.71599865]
+  EEF: [-0.03492347  0.11014009  0.83964811]
+  Nut: [-0.11077432  0.15073654  0.8286339 ]
+Step  75 | reward=0.0071 | distance=0.2058 m | nut_z=0.8300 | gripper=-0.964 | success=False
+  action: [ 0.18196958 -0.30097061  0.22840035  0.04259637  0.02935832 -0.06158046
+ -0.96369457]
+  EEF: [0.07248101 0.10795223 0.95202315]
+  Nut: [-0.0880697   0.14901079  0.82997849]
+Step 100 | reward=0.0126 | distance=0.1807 m | nut_z=0.8300 | gripper=-1.000 | success=False
+  action: [-0.14320427 -0.06906375 -0.21658182  0.01103508 -0.00484666 -0.01597089
+ -0.99979573]
+  EEF: [0.05611803 0.06335735 0.8971376 ]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 125 | reward=0.0300 | distance=0.1362 m | nut_z=0.8300 | gripper=+0.364 | success=False
+  action: [-0.02960023  0.09967014 -0.08061822 -0.00600853 -0.00155542  0.00712644
+  0.36389571]
+  EEF: [0.02742872 0.07938583 0.84882844]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 150 | reward=0.0053 | distance=0.2272 m | nut_z=0.8300 | gripper=-0.971 | success=False
+  action: [-0.18704022 -0.29506335 -0.15743659  0.03410528  0.00327122  0.00990593
+ -0.97124267]
+  EEF: [0.10422155 0.06890765 0.92078134]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 175 | reward=0.0243 | distance=0.1468 m | nut_z=0.8300 | gripper=+0.539 | success=False
+  action: [-0.15117893  0.12949692 -0.14822519 -0.00559186 -0.01755495  0.03310527
+  0.53911519]
+  EEF: [0.03102702 0.06391895 0.8417254 ]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 200 | reward=0.0107 | distance=0.1915 m | nut_z=0.8300 | gripper=+0.581 | success=False
+  action: [-0.13368505 -0.18824813 -0.14688179  0.02122041 -0.01352037 -0.00939631
+  0.5809775 ]
+  EEF: [0.07270913 0.06631972 0.89314068]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 225 | reward=0.0066 | distance=0.2148 m | nut_z=0.8300 | gripper=+0.355 | success=False
+  action: [-0.04819001 -0.01404145 -0.00902065  0.02336431 -0.01072119 -0.00513673
+  0.35483253]
+  EEF: [0.08916755 0.06929282 0.92153806]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 250 | reward=0.0110 | distance=0.1883 m | nut_z=0.8300 | gripper=-1.000 | success=False
+  action: [-0.24112323  0.04316676 -0.29628372  0.01347177 -0.03099973  0.02792331
+ -0.99996161]
+  EEF: [0.06397874 0.06662374 0.90440376]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 275 | reward=0.0440 | distance=0.1095 m | nut_z=0.8300 | gripper=-0.913 | success=False
+  action: [-0.17187423  0.08150855 -0.19011471  0.00446951 -0.03465269  0.03965907
+ -0.91290933]
+  EEF: [-2.90285060e-04  8.40722360e-02  8.38186307e-01]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 300 | reward=0.0460 | distance=0.1059 m | nut_z=0.8300 | gripper=-0.950 | success=False
+  action: [-0.08418953  0.10452476 -0.1560622   0.00549231 -0.02574846  0.0179098
+ -0.95034671]
+  EEF: [-0.00401717  0.08530029  0.8391658 ]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 325 | reward=0.0461 | distance=0.1057 m | nut_z=0.8300 | gripper=-0.958 | success=False
+  action: [-0.03072906  0.11367291 -0.12865463  0.00790696 -0.01848593  0.00740328
+ -0.95753729]
+  EEF: [-0.00423331  0.08539445  0.83991953]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 350 | reward=0.0454 | distance=0.1068 m | nut_z=0.8300 | gripper=-0.967 | success=False
+  action: [-0.02017776  0.11213797 -0.12392055  0.00936898 -0.01512049  0.00723565
+ -0.96692687]
+  EEF: [-0.00321192  0.08502083  0.8407062 ]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 375 | reward=0.0446 | distance=0.1080 m | nut_z=0.8300 | gripper=-0.978 | success=False
+  action: [-0.03007978  0.10913265 -0.13249166  0.01079716 -0.01326054  0.01110183
+ -0.9777627 ]
+  EEF: [-0.00218137  0.08460802  0.841579  ]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+Step 400 | reward=0.0442 | distance=0.1085 m | nut_z=0.8300 | gripper=-0.989 | success=False
+  action: [-0.04666892  0.10873289 -0.14609747  0.01238312 -0.01259483  0.0159147
+ -0.98896027]
+  EEF: [-0.00183452  0.08431281  0.84259293]
+  Nut: [-0.08806972  0.1490107   0.82997895]
+
+================================================================================
+TRAJECTORY SUMMARY
+================================================================================
+Steps: 400
+Minimum EEF-to-nut distance: 0.08155630685913878
+Maximum reward: 0.07018529480285964
+Maximum nut lift: 0.0
+EEF movement: [ 0.09590926  0.08153758 -0.1685035 ]
+Nut movement: [ 0.02313984 -0.00175978 -0.06002105]
+Positive gripper actions: 115
+Negative gripper actions: 285
+Saved: results/square_trajectory_debug/trajectory.csv

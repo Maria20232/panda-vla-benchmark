@@ -1,0 +1,59 @@
+ROBOMIMIC WARNING(
+    No private macro file found!
+    It is recommended to use a private macro file
+    To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robomimic/scripts/setup_macros.py
+)
+Loaded samples: 5000
+Expert action shape: (5000, 7)
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'robot0_eef_pos', 'object', 'robot0_gripper_qpos']
+using obs modality: rgb with keys: []
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+
+========================================================================
+Square-BC-50
+========================================================================
+Samples: 5000
+MSE: 0.03540666773915291
+RMSE: 0.18816659570485114
+MAE: 0.09907841682434082
+Mean cosine similarity: 0.8937795162200928
+Gripper sign accuracy: 0.9608
+
+Per-action MAE:
+Action 0: 0.156888
+Action 1: 0.128593
+Action 2: 0.166089
+Action 3: 0.020916
+Action 4: 0.029321
+Action 5: 0.049256
+Action 6: 0.142486
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'robot0_eef_pos', 'object', 'robot0_gripper_qpos']
+using obs modality: rgb with keys: []
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+
+========================================================================
+Square-BC-500
+========================================================================
+Samples: 5000
+MSE: 0.027718447148799896
+RMSE: 0.16648857963476021
+MAE: 0.08252012729644775
+Mean cosine similarity: 0.9146208167076111
+Gripper sign accuracy: 0.9694
+
+Per-action MAE:
+Action 0: 0.138888
+Action 1: 0.122456
+Action 2: 0.142820
+Action 3: 0.018235
+Action 4: 0.025923
+Action 5: 0.034618
+Action 6: 0.094700

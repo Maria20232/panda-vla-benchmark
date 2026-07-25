@@ -1,0 +1,3 @@
+model,task,successes,episodes,success_rate,wilson_low,wilson_high,median_latency_ms,mean_latency_ms,mean_episode_steps
+Square-BC-50,NutAssemblySquare,0,3,0.0,0.0,0.5615060804490177,1.2698040009126998,1.4095109150548524,400.0
+Square-BC-500,NutAssemblySquare,0,3,0.0,0.0,0.5615060804490177,1.124508500652155,1.1804127167124534,400.0
