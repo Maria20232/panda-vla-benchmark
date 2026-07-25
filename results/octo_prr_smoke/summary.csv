@@ -1,0 +1,4 @@
+instruction_index,instruction_type,instruction,episodes,successes,success_rate,wilson_low,wilson_high,median_latency_ms,mean_latency_ms,mean_cube_vertical_change
+0,base,lift the red cube,1,0,0.0,0.0,0.7934567085261071,506.0701299998982,506.61328002021,-0.010674414602252158
+1,paraphrase,pick up the red cube,1,0,0.0,0.0,0.7934567085261071,520.1291200000924,552.3361185555541,-0.010076202652865685
+2,paraphrase,raise the red cube,1,0,0.0,0.0,0.7934567085261071,532.8373120000833,577.923436202049,-0.014344595752026956
