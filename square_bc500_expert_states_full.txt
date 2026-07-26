@@ -1,0 +1,221 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+ROBOMIMIC WARNING(
+    No private macro file found!
+    It is recommended to use a private macro file
+    To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robomimic/scripts/setup_macros.py
+)
+Loading policy:
+Square-BC-500
+/home/maria/robotics_eval/square_bc_trained_models/square_bc_500/20260723201138/models/model_epoch_500.pth
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'object', 'robot0_eef_pos', 'robot0_gripper_qpos']
+using obs modality: rgb with keys: []
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+
+================================================================================
+Starting BC rollout from expert step 0
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [-0.11178995  0.00276081  0.99844004]
+Initial nut: [-0.11118988  0.17443746  0.89      ]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.0047 | distance=0.2114 m | nut_z=0.8792
+Rollout step  50/200 | success=False | reward=0.0565 | distance=0.0693 m | nut_z=0.8299
+Rollout step 100/200 | success=False | reward=0.0075 | distance=0.1616 m | nut_z=0.8300
+Rollout step 150/200 | success=False | reward=0.0121 | distance=0.1463 m | nut_z=0.8300
+Rollout step 200/200 | success=False | reward=0.0150 | distance=0.1415 m | nut_z=0.8300
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 0, 'rollout_horizon': 200, 'executed_rollout_steps': 200, 'success': 0, 'first_success_rollout_step': '', 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.20305781163519257, 'minimum_eef_nut_distance': 0.05930375286069539, 'maximum_reward': 0.35745083143767037, 'maximum_nut_lift': 0.0, 'final_nut_dx': 0.09913697509073116, 'final_nut_dy': 0.01475244378090676, 'final_nut_dz': -0.060021054140518504, 'final_eef_dx': 0.08263549595971928, 'final_eef_dy': 0.1117582060113723, 'final_eef_dz': -0.04946269593967856, 'median_latency_ms': 0.9323375000178658, 'mean_latency_ms': 1.8788674200015976}
+
+================================================================================
+Starting BC rollout from expert step 20
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [-0.0863904   0.06962681  0.95333773]
+Initial nut: [-0.11118775  0.17443976  0.82997889]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.0086 | distance=0.1682 m | nut_z=0.8300
+Rollout step  50/200 | success=False | reward=0.0491 | distance=0.0707 m | nut_z=0.8316
+Rollout step 100/200 | success=False | reward=0.0257 | distance=0.0979 m | nut_z=0.8300
+Rollout step 150/200 | success=False | reward=0.0447 | distance=0.0730 m | nut_z=0.8300
+Rollout step 200/200 | success=False | reward=0.0504 | distance=0.0529 m | nut_z=0.8280
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 20, 'rollout_horizon': 200, 'executed_rollout_steps': 200, 'success': 0, 'first_success_rollout_step': '', 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.16376222261129805, 'minimum_eef_nut_distance': 0.052865320242076866, 'maximum_reward': 0.35266480764366137, 'maximum_nut_lift': 0.010590276122825482, 'final_nut_dx': 0.0351589277271441, 'final_nut_dy': 0.004312703500854637, 'final_nut_dz': -0.0019874870739232664, 'final_eef_dx': 0.025691707638903327, 'final_eef_dy': 0.059376886502764986, 'final_eef_dz': -0.11611451632307812, 'median_latency_ms': 0.9308825000005072, 'mean_latency_ms': 1.0120946150016152}
+
+================================================================================
+Starting BC rollout from expert step 40
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [-0.16699867  0.12761133  0.85155705]
+Initial nut: [-0.11118769  0.17443982  0.82997895]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.0692 | distance=0.0800 m | nut_z=0.8300
+Rollout step  50/200 | success=False | reward=0.6500 | distance=0.0756 m | nut_z=0.9801
+Rollout step 100/200 | success=False | reward=0.5872 | distance=0.0705 m | nut_z=0.9563
+Rollout step 150/200 | success=False | reward=0.5892 | distance=0.0659 m | nut_z=0.9471
+Rollout step 200/200 | success=False | reward=0.1890 | distance=0.0628 m | nut_z=0.9383
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 40, 'rollout_horizon': 200, 'executed_rollout_steps': 200, 'success': 0, 'first_success_rollout_step': '', 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.07598281128219929, 'minimum_eef_nut_distance': 0.06280643796522273, 'maximum_reward': 0.65726197621791, 'maximum_nut_lift': 0.15664325234223198, 'final_nut_dx': 0.3460783947732325, 'final_nut_dy': -0.07188503756944194, 'final_nut_dz': 0.10836212762357378, 'final_eef_dx': 0.36721909427992405, 'final_eef_dy': -0.03235944714313972, 'final_eef_dz': 0.03492567820953585, 'median_latency_ms': 0.938497499987534, 'mean_latency_ms': 0.9838325500001588}
+
+================================================================================
+Starting BC rollout from expert step 60
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [-0.14697819  0.14469146  0.85068246]
+Initial nut: [-0.0920644   0.19468005  0.85007497]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.3562 | distance=0.0745 m | nut_z=0.8624
+Rollout step  50/200 | success=False | reward=0.5635 | distance=0.0764 m | nut_z=0.9588
+Rollout step 100/200 | success=False | reward=0.5740 | distance=0.0748 m | nut_z=0.9665
+Rollout step 150/200 | success=False | reward=0.5747 | distance=0.0739 m | nut_z=0.9696
+Rollout step 200/200 | success=False | reward=0.5733 | distance=0.0733 m | nut_z=0.9714
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 60, 'rollout_horizon': 200, 'executed_rollout_steps': 200, 'success': 0, 'first_success_rollout_step': '', 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.07426138354049278, 'minimum_eef_nut_distance': 0.07334382440403023, 'maximum_reward': 0.670914485815369, 'maximum_nut_lift': 0.1657855177841565, 'final_nut_dx': 0.360643945035612, 'final_nut_dy': -0.10464213784700961, 'final_nut_dz': 0.12132681103512577, 'final_eef_dx': 0.34858277211210453, 'final_eef_dy': -0.054167970741861055, 'final_eef_dz': 0.09082895183916484, 'median_latency_ms': 0.9242954999990616, 'mean_latency_ms': 0.9625458299998968}
+
+================================================================================
+Starting BC rollout from expert step 80
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [0.07604452 0.0688353  0.97555364]
+Initial nut: [0.15029598 0.08351272 0.9698359 ]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.4997 | distance=0.0760 m | nut_z=0.9660
+Rollout step  50/200 | success=False | reward=0.5598 | distance=0.0749 m | nut_z=0.9516
+Rollout step 100/200 | success=False | reward=0.5633 | distance=0.0748 m | nut_z=0.9518
+Rollout step 150/200 | success=False | reward=0.5652 | distance=0.0747 m | nut_z=0.9519
+Rollout step 200/200 | success=False | reward=0.5670 | distance=0.0745 m | nut_z=0.9519
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 80, 'rollout_horizon': 200, 'executed_rollout_steps': 200, 'success': 0, 'first_success_rollout_step': '', 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.07590387858491732, 'minimum_eef_nut_distance': 0.07448651943268286, 'maximum_reward': 0.5697444283739408, 'maximum_nut_lift': 0.0003643944876033922, 'final_nut_dx': 0.08733289790413526, 'final_nut_dy': -0.00652683552649741, 'final_nut_dz': -0.01794825507307185, 'final_eef_dx': 0.08807108265879227, 'final_eef_dy': 0.004857841763993759, 'final_eef_dz': -0.03520712200926246, 'median_latency_ms': 0.9378930000139007, 'mean_latency_ms': 0.961112105002826}
+
+================================================================================
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.10/site-packages/robosuite/controllers/config/default/composite/basic.json (composite_controller_factory.py:121)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "left", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for left from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "torso", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for torso from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "head", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for head from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "base", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for base from self.part_controller_config. (robot.py:151)
+[robosuite WARNING] The config has defined for the controller "legs", but the robot does not have this component. Skipping, but make sure this is intended.Removing the controller config for legs from self.part_controller_config. (robot.py:151)
+Starting BC rollout from expert step 100
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [0.14363863 0.10551676 0.95632635]
+Initial nut: [0.22000878 0.11364543 0.95225822]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.1660 | distance=0.0854 m | nut_z=0.9530
+Rollout step  50/200 | success=False | reward=0.1455 | distance=0.4338 m | nut_z=0.9288
+Rollout step 100/200 | success=False | reward=0.1454 | distance=0.7096 m | nut_z=0.9288
+Rollout step 150/200 | success=False | reward=0.1453 | distance=0.8218 m | nut_z=0.9287
+Rollout step 200/200 | success=False | reward=0.1451 | distance=1.0091 m | nut_z=0.9287
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 100, 'rollout_horizon': 200, 'executed_rollout_steps': 200, 'success': 0, 'first_success_rollout_step': '', 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.07690920197411236, 'minimum_eef_nut_distance': 0.07690920197411236, 'maximum_reward': 0.17391326873311114, 'maximum_nut_lift': 0.013665069947497943, 'final_nut_dx': 0.03319805561426184, 'final_nut_dy': 0.002288380617800831, 'final_nut_dz': -0.023583293484518264, 'final_eef_dx': -0.6870754873856733, 'final_eef_dy': -0.4828499078798699, 'final_eef_dz': 0.3469272104670451, 'median_latency_ms': 0.9540529999867431, 'mean_latency_ms': 0.9974166100002435}
+
+================================================================================
+Starting BC rollout from expert step 120
+================================================================================
+Restoration max error: 0.0
+Initial EEF: [0.14810679 0.0977772  0.91314185]
+Initial nut: [0.22459086 0.10096784 0.9174321 ]
+Initially successful: False
+Rollout step   1/200 | success=False | reward=0.1939 | distance=0.0938 m | nut_z=0.9130
+Rollout step   3/200 | success=True | reward=1.0000 | distance=0.1400 m | nut_z=0.8441
+
+Result:
+{'model': 'Square-BC-500', 'demo': 'demo_0', 'expert_start_step': 120, 'rollout_horizon': 200, 'executed_rollout_steps': 3, 'success': 1, 'first_success_rollout_step': 3, 'restoration_max_error': 0.0, 'initial_eef_nut_distance': 0.07667071626881158, 'minimum_eef_nut_distance': 0.07667071626881158, 'maximum_reward': 1.0, 'maximum_nut_lift': 0.0, 'final_nut_dx': 0.008410456207455536, 'final_nut_dy': -0.0029002027147311676, 'final_nut_dz': -0.07334803198021012, 'final_eef_dx': -0.03741382788643846, 'final_eef_dy': -0.027262675016860416, 'final_eef_dz': -0.00676956691908126, 'median_latency_ms': 1.1559089999764183, 'mean_latency_ms': 1.160633333313399}
+
+================================================================================
+BC FROM EXPERT STATES — FINAL RESULTS
+================================================================================
+Expert step   0 | success=0 | success rollout step= | minimum distance=0.0593 m | maximum nut lift=0.0000 m
+Expert step  20 | success=0 | success rollout step= | minimum distance=0.0529 m | maximum nut lift=0.0106 m
+Expert step  40 | success=0 | success rollout step= | minimum distance=0.0628 m | maximum nut lift=0.1566 m
+Expert step  60 | success=0 | success rollout step= | minimum distance=0.0733 m | maximum nut lift=0.1658 m
+Expert step  80 | success=0 | success rollout step= | minimum distance=0.0745 m | maximum nut lift=0.0004 m
+Expert step 100 | success=0 | success rollout step= | minimum distance=0.0769 m | maximum nut lift=0.0137 m
+Expert step 120 | success=1 | success rollout step=3 | minimum distance=0.0767 m | maximum nut lift=0.0000 m
+
+Saved:
+- results/square_bc500_expert_states_full/summary.csv
+- results/square_bc500_expert_states_full/trajectories.csv
